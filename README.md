@@ -8,16 +8,17 @@
 抽离出以下自定义属性，如果有需要还可以自行添加更多自定义属性
 
 <declare-styleable name="LotteryView">
-        <attr name="outer_small_circle_color_active" format="color"></attr>  <!-- 小圆圈变化的颜色 -->
-        <attr name="outer_small_circle_color_default" format="color"></attr> <!-- 小圆圈默认颜色 -->
-        <attr name="lottery_invalidate_times" format="integer"></attr>       <!-- 抽奖动画刷新次数 -->
-        <attr name="self_width_size_factor" format="float"></attr>           <!-- view宽度占屏幕宽度的比例 建议设置此值不小于0.75f -->
-        <attr name="inner_round_card_color_default" format="color"></attr>   <!-- 内部卡片默认背景颜色 -->
-    </declare-styleable>
+	<attr name="outer_small_circle_color_active" format="color"></attr>  <!-- 小圆圈变化的颜色 -->
+	<attr name="outer_small_circle_color_default" format="color"></attr> <!-- 小圆圈默认颜色 -->
+	<attr name="lottery_invalidate_times" format="integer"></attr>       <!-- 抽奖动画刷新次数 -->
+	<attr name="self_width_size_factor" format="float"></attr>           <!-- view宽度占屏幕宽度的比例 建议设置此值不小于0.75f -->
+	<attr name="inner_round_card_color_default" format="color"></attr>   <!-- 内部卡片默认背景颜色 -->
+</declare-styleable>
+
 
 如下是效果截图 ，如果看不清楚gif图 在demoVideo文件夹下中有一段演示视频供参考。
 
-![image](https://github.com/aquarius520/LotteryView/tree/master/images/Screenshot_20170417-221603.jpg)
+![image](https://github.com/aquarius520/LotteryView/blob/master/images/Screenshot_20170417-221603.jpg?raw=true)
 
 ![image](https://github.com/aquarius520/LotteryView/tree/master/images/Screenshot_20170417-221611.jpg)
 
