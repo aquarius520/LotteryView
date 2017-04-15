@@ -1,0 +1,13 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+
+    <dimen name="lotteryview_outer_circle_width">18dp</dimen>
+    <dimen name="lotteryview_inner_card_width">80dp</dimen>
+    <dimen name="lotteryview_inner_card_blank">8dp</dimen>
+    <dimen name="lotteryview_inner_card_text_size">12dp</dimen>
+    <dimen name="lotteryview_inner_card_big_text_size">20dp</dimen>
+    <dimen name="lotteryview_outer_small_circle_radius">4dp</dimen>
+</resources>

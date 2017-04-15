@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.aquarius.customview.MainActivity">
+
+        <com.aquarius.customview.LotteryView
+            android:id="@+id/lotteryview"
+            android:layout_margin="16dp"
+            android:padding="4dp"
+            app:self_width_size_factor="0.85"
+            app:outer_small_circle_color_default="#139AC8"
+            app:outer_small_circle_color_active="#F0FF2F"
+            app:inner_round_card_color_default="#FFFFFF"
+            android:layout_centerInParent="true"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+</RelativeLayout>
