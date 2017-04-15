@@ -20,13 +20,13 @@
 
 ![image](https://github.com/aquarius520/LotteryView/blob/master/images/Screenshot_20170417-221603.jpg?raw=true)
 
-![image](https://github.com/aquarius520/LotteryView/tree/master/images/Screenshot_20170417-221611.jpg)
+![image](https://github.com/aquarius520/LotteryView/tree/master/images/Screenshot_20170417-221611.jpg?raw=true)
 
-![image](https://github.com/aquarius520/LotteryView/tree/master/images/Screenshot_20170417-221618.jpg)
+![image](https://github.com/aquarius520/LotteryView/tree/master/images/Screenshot_20170417-221618.jpg?raw=true)
 
-![image](https://github.com/aquarius520/LotteryView/tree/master/images/Screenshot_20170417-221630.jpg)
+![image](https://github.com/aquarius520/LotteryView/tree/master/images/Screenshot_20170417-221630.jpg?raw=true)
 
-![image](https://github.com/aquarius520/LotteryView/tree/master/images/Screenshot_20170417-221708.jpg)
+![image](https://github.com/aquarius520/LotteryView/tree/master/images/Screenshot_20170417-221708.jpg?raw=true)
 
 
-![image](https://github.com/aquarius520/LotteryView/tree/master/images/demo.gif)
+![image](https://github.com/aquarius520/LotteryView/tree/master/images/demo.gif?raw=true)
