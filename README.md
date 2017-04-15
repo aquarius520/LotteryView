@@ -21,3 +21,14 @@
 如下是效果截图 ，如果看不清楚gif图 在demoVideo文件夹下中有一段演示视频供参考。
 
 
+![image](https://github.com/aquarius520/LotteryView/blob/master/images/Screenshot_20170417-221611.jpg?raw=true)
+
+![image](https://github.com/aquarius520/LotteryView/blob/master/images/Screenshot_20170417-221618.jpg?raw=true)
+
+![image](https://github.com/aquarius520/LotteryView/blob/master/images/Screenshot_20170417-221630.jpg?raw=true)
+
+![image](https://github.com/aquarius520/LotteryView/blob/master/images/Screenshot_20170417-221708.jpg?raw=true)
+
+![image](https://github.com/aquarius520/LotteryView/blob/master/images/Screenshot_20170417-221603.jpg?raw=true)
+
+![image](https://github.com/aquarius520/LotteryView/blob/master/images/demo.gif?raw=true)
