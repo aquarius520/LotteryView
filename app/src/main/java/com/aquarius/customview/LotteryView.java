@@ -14,7 +14,6 @@ import android.graphics.Region;
 import android.text.TextUtils;
 import android.util.AttributeSet;
 import android.util.DisplayMetrics;
-import android.util.Log;
 import android.util.Pair;
 import android.view.MotionEvent;
 import android.view.View;
@@ -22,7 +21,6 @@ import android.view.WindowManager;
 
 import java.util.ArrayList;
 import java.util.Random;
-import java.util.concurrent.RunnableFuture;
 
 /**
  * Created by aquarius on 17-4-11.
