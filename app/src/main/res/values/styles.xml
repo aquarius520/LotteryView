@@ -8,11 +8,4 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
-    <declare-styleable name="LotteryView">
-        <attr name="outer_small_circle_color_active" format="color"></attr>  <!-- 小圆圈变化的颜色 -->
-        <attr name="outer_small_circle_color_default" format="color"></attr> <!-- 小圆圈默认颜色 -->
-        <attr name="lottery_invalidate_times" format="integer"></attr>       <!-- 抽奖动画刷新次数 -->
-        <attr name="self_width_size_factor" format="float"></attr>           <!-- view宽度占屏幕宽度的比例 建议设置此值不小于0.75f -->
-        <attr name="inner_round_card_color_default" format="color"></attr>   <!-- 内部卡片默认背景颜色 -->
-    </declare-styleable>
 </resources>
