@@ -1,7 +1,6 @@
 package com.aquarius.customview;
 
-import android.os.AsyncTask;
-import android.os.Handler;
+
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
