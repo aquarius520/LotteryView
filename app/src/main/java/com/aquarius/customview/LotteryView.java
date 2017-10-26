@@ -286,8 +286,8 @@ public class LotteryView extends View {
                 mInnerPaint.setColor(index == 4 ? Color.parseColor("#ffffff") : mInnerCardTextColor);
                 mInnerPaint.setTextSize(mBigInfoTextSize);
                 int textX = left + (mInnerCardWidth - getTextWidth(mInfoResArray[index].substring(0, 2), mInnerPaint))/2;
-                int textY_1 = top + (mInnerCardWidth/4 + getTextHeight(mInfoResArray[index].substring(0, 2), mInnerPaint));
-                int textY_2 = top + (mInnerCardWidth/4 + getTextHeight(mInfoResArray[index].substring(0, 2), mInnerPaint)*2 + mInnerCardWidth/10);
+                int textY_1 = top + (mInnerCardWidth/4 + getTextHeight(mInfoResArray[index].substring(0, 2), mInnerPaint)) - 8;
+                int textY_2 = top + (mInnerCardWidth/4 + getTextHeight(mInfoResArray[index].substring(0, 2), mInnerPaint)*2 + mInnerCardWidth/10) -8;
                 canvas.drawText(mInfoResArray[index], 0, 2, textX, textY_1, mInnerPaint);
                 canvas.drawText(mInfoResArray[index], 2, 4, textX, textY_2, mInnerPaint);
                 return;
@@ -295,7 +295,7 @@ public class LotteryView extends View {
             mInnerPaint.setColor(mInnerCardTextColor);
             mInnerPaint.setTextSize(mSmallInfoTextSize);
             int textX = left + (mInnerCardWidth - getTextWidth(mInfoResArray[index], mInnerPaint))/2;
-            int textY = top + picHeight + mInnerCardWidth / 4 + getTextHeight(mInfoResArray[index], mInnerPaint);
+            int textY = top + picHeight + mInnerCardWidth / 4 + getTextHeight(mInfoResArray[index], mInnerPaint) -10;
             canvas.drawText(mInfoResArray[index],textX, textY, mInnerPaint);
         }
     }

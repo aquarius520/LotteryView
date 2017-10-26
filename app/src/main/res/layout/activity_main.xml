@@ -6,6 +6,7 @@
     android:layout_height="match_parent"
     tools:context="com.aquarius.customview.MainActivity">
 
+
         <com.aquarius.customview.LotteryView
             android:id="@+id/lotteryview"
             android:layout_margin="16dp"
