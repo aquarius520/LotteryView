@@ -103,25 +103,25 @@ public class LotteryView extends View {
         mInnerCardWidth   = (mSelfTotalWidth- getPaddingLeft() -getPaddingRight() - mOuterCircleWidth * 2 -  mInnerCardSpace * 4) / 3;
         mSmallCircleRadius = (int) context.getResources().getDimension(R.dimen.lotteryview_outer_small_circle_radius);
 
-        mInnerCardTextColor = context.getColor(R.color.inner_card_text_color);
-        mCenterCardBackgroundColor = context.getColor(R.color.center_card_bg_color);
+        mInnerCardTextColor = context.getResources().getColor(R.color.inner_card_text_color);
+        mCenterCardBackgroundColor = context.getResources().getColor(R.color.center_card_bg_color);
 
-        mOuterCircleBackgroundColor = context.getColor(R.color.outer_circle_bg_color);
+        mOuterCircleBackgroundColor = context.getResources().getColor(R.color.outer_circle_bg_color);
         mOuterCirclePaint = new Paint();
         mOuterCirclePaint.setColor(mOuterCircleBackgroundColor);
         mOuterCirclePaint.setAntiAlias(true);
         mOuterCirclePaint.setStrokeWidth(mOuterCircleWidth);
         mOuterCirclePaint.setStyle(Paint.Style.FILL);
 
-        mSmallCircleBlueColor = mSmallCircleBlueColor != 0 ? mSmallCircleBlueColor : context.getColor(R.color.small_circle_color_blue);
-        mSmallCircleYellowColor = mSmallCircleYellowColor != 0 ? mSmallCircleYellowColor : context.getColor(R.color.small_circle_color_yellow);
+        mSmallCircleBlueColor = mSmallCircleBlueColor != 0 ? mSmallCircleBlueColor : context.getResources().getColor(R.color.small_circle_color_blue);
+        mSmallCircleYellowColor = mSmallCircleYellowColor != 0 ? mSmallCircleYellowColor : context.getResources().getColor(R.color.small_circle_color_yellow);
         mSmallCirclePaint = new Paint();
         mSmallCirclePaint.setColor(mSmallCircleBlueColor);
         mSmallCirclePaint.setAntiAlias(true);
         mOuterCirclePaint.setStyle(Paint.Style.FILL);
 
 
-        mInnerCircleBackgroundColor = context.getColor(R.color.inner_circle_bg_color);
+        mInnerCircleBackgroundColor = context.getResources().getColor(R.color.inner_circle_bg_color);
         mInnerPaint = new Paint();
         mInnerPaint.setAntiAlias(true);
         mInnerPaint.setColor(mInnerCircleBackgroundColor);
@@ -264,6 +264,7 @@ public class LotteryView extends View {
         if(index == 4) {
             mInnerPaint.setColor(Color.parseColor("#73D7F8"));
         }
+
         canvas.drawRoundRect(left, top, right, bottom, 12, 12, mInnerPaint);
 
         if(index ==4) {
